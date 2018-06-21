@@ -66,7 +66,6 @@ type: 'GET',
 data: {login:login, pass:pass},
 success:function(data){
 	if(data==0)
-	
 	{
 		$('#alertConnect').html("Login ou mot de passe incorrecte");
 	}
