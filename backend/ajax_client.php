@@ -7,7 +7,8 @@ return new PDO('mysql:host='.$hostname_conn.';dbname='.$database_conn,$username_
 // *** Validate request to login to this site.
 /*
 if (!isset($_SESSION)) {
-    session_start();
+    session_start();git commit
+    
   }
 */
 $pdo = connect();
